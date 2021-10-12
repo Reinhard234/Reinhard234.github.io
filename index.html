@@ -1,7 +1,1239 @@
 <!DOCTYPE html>
-<html>
-<body>
-<h1>Hello World 1</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Agency - Start Bootstrap Theme</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300&display=swap" rel="stylesheet">
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/styles-personal.css" rel="stylesheet" />
+        <style>
+            svg:hover ,.cls:hover{
+                fill:antiquewhite;
+            }
+        </style>        
+    </head>
+    <body id="page-top">
+
+        <!-- Navigation-->
+
+        <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+            <div class="container">
+                <!-- Logo is an image -->
+
+                <a href="#page-top" id="top-link"><p>Keepin it real</p></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars ms-1"></i>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto py-4 py-lg-0" style="font-family: 'Jost', sans-serif;font-weight: 300;">
+
+                        <li class="nav-item"><a id="test" class="nav-link" href="#Projects">projects</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">about</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#services">services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#checkout"><svg style="width:20px; "xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56.28 49.71"><defs>
+                            <style>.cls-1{fill:white;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="cls-1" d="M28.91,21.12H1.56c-1,0-1.77.75-1.51,1.53L8.69,48.8a1.54,1.54,0,0,0,1.51.91H46.08a1.54,1.54,0,0,0,1.51-.91l8.64-26.15c.26-.78-.49-1.53-1.51-1.53Z"/><rect class="cls-1" x="14.92" y="-3.16" width="4.48" height="26.32" rx="2.16" transform="translate(12.1 -9.21) rotate(45)"/><rect class="cls-1" x="36.88" y="-3.16" width="4.48" height="26.32" rx="2.16" transform="translate(73.85 -10.6) rotate(135)"/></g></g></svg></a></li>                        
+
+                        <!-- <li class="nav-item"><a class="nav-link" href="#team">Team</a></li> -->
+                        <!-- <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li> -->
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Landing page section -->
+
+        <section class="page-section" style="background-color: #282828; margin: 0 !important;padding: 0 !important; height: 100vh;background-image: url('assets/img/GradientBlur.png');background-position: center;background-repeat: no-repeat;background-size: cover; background-attachment: fixed; position: relative; ">
+            <div class="container-fluid">
+                <!--<div class="masthead-subheading">Keepin' it real</div>-->
+                <!-- <div class="masthead-heading text-uppercase">Content Creation <br> User Experience <br> Programming</div> -->
+
+                <div class="row vh-100">
+                    <div class="col-6 hscroll" style="background: rgba(255, 255, 255, 0.21);box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);backdrop-filter: blur(13px);-webkit-backdrop-filter: blur(13px); height: 100vh; width: 50%;margin: 0;">
+                        <div class="text-light hsinsideroll" style="font-family: Leky; font-size: 65pt; text-align: right; margin-right: 2%; letter-spacing: 1px;">Keepin' <br> it <br> real</div>
+                    </div>
+                    <div id="rotated">
+                        <h2 class="rotate" style="color: white; ">art & technology</h2>
+                    </div>
+
+
+                    <div class="col-6">
+                        <div class="text-light movingSubHeading" style="font-size: 54pt; padding-top: 60%; font-family: 'Jost', sans-serif;font-weight: 200; margin-left: 5%;">UI/UX design <br> Motion graphics<br> Development</div>
+                    </div>
+                    <i class="fas fa-chevron-down" style="color: #B44B46;position:fixed;left:0px;bottom:0px; font-size: 36pt ;width:100%; z-index: 999;"></i>
+                </div>
+            </div>
+
+
+            <!-- <a class="btn btn-primary btn-xl text-uppercase" href="#services">Tell Me More</a> -->
+
+        </section>
+
+
+        <!-- Projects Grid-->
+        <section class="page-section " id="Projects" style="background-color: #272727;">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-light" style="font-family: Leky; letter-spacing: 6px">Projects</h2>
+                    <h3 class="section-subheading text-muted">An amalgamation of our University projects</h3>
+                </div>
+                <div class="row align-items-center">
+
+                    <div class=" col-lg-4 col-sm-6 portfolioItemContainer">
+                        <!-- Portfolio item 1-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
+                                <div class="portfolio-hover">
+                                    <!--<div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>-->
+                                </div>
+                                <div style="position: relative;">
+                                    <img class="card-img-top" src="assets/img/portfolio/iris2.jpg" alt="..." />
+                                    <div class="card-img-bottom" style="background: rgba(255, 255, 255, 0.21);box-shadow: 0 4px 30px rgba(0, 0, 0, 0.21);backdrop-filter: blur(13px);-webkit-backdrop-filter: blur(13px); width: 100%;  position: absolute;bottom: 0px;left: 0px;">
+                                        <div class="text-light text-center" style="font-family: jost; font-size: 20pt;">Iris</div>
+                                        <div class="text-light text-center" style="font-family: jost; font-size: 15pt; font-weight: 100; text-decoration: none;">Game development in Unity</div>
+                                    </div>
+                                </div>
+
+
+                            </a>
+
+                        </div>
+                    </div>
+
+                    <div class=" col-lg-4 col-sm-6 portfolioItemContainer">
+                        <!-- Portfolio item 2-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
+                                <div class="portfolio-hover">
+                                    <!--<div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>-->
+                                </div>
+                                <div style="position: relative;">
+                                    <img class="card-img-top" src="assets/img/portfolio/flowersOfGrief1.jpeg" style="width: 100%;" alt="..." />
+                                    <div class="card-img-bottom" style="background: rgba(255, 255, 255, 0.21);box-shadow: 0 4px 30px rgba(0, 0, 0, 0.21);backdrop-filter: blur(13px);-webkit-backdrop-filter: blur(13px); width: 100%;  position: absolute;bottom: 0px;left: 0px;">
+                                        <div class="text-light text-center" style="font-family: jost; font-size: 20pt;">Flowers of Grief</div>
+                                        <div class="text-light text-center" style="font-family: jost; font-size: 15pt; font-weight: 100; text-decoration: none;">Short horror film project</div>
+                                    </div>
+                                </div>
+
+
+                            </a>
+
+                        </div>
+                    </div>
+
+
+
+                    <div class=" col-lg-4 col-sm-6 portfolioItemContainer">
+                        <!-- Portfolio item 3-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
+                                <div class="portfolio-hover">
+                                    <!--<div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>-->
+                                </div>
+                                <div style="position: relative;">
+                                    <img class="card-img-top" src="assets/img/portfolio/reinie1.png" alt="..." />
+                                    <div class="card-img-bottom" style="background: rgba(255, 255, 255, 0.21);box-shadow: 0 4px 30px rgba(0, 0, 0, 0.21);backdrop-filter: blur(13px);-webkit-backdrop-filter: blur(13px); width: 100%;  position: absolute;bottom: 0px;left: 0px;">
+                                        <div class="text-light text-center" style="font-family: jost; font-size: 20pt;">Reinhard Portfolio Project</div>
+                                        <div class="text-light text-center" style="font-family: jost; font-size: 15pt; font-weight: 100; text-decoration: none;">Personal branding project</div>
+                                    </div>
+                                </div>
+
+
+                            </a>
+
+                        </div>
+                    </div>
+
+                    <div class=" col-lg-4 col-sm-6 portfolioItemContainer">
+                        <!-- Portfolio item 4-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4">
+                                <div class="portfolio-hover">
+                                    <!--<div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>-->
+                                </div>
+                                <div style="position: relative;">
+                                    <img class="card-img-top" src="assets/img/portfolio/irone1.png" alt="..." />
+                                    <div class="card-img-bottom" style="background: rgba(255, 255, 255, 0.21);box-shadow: 0 4px 30px rgba(0, 0, 0, 0.21);backdrop-filter: blur(13px);-webkit-backdrop-filter: blur(13px); width: 100%;  position: absolute;bottom: 0px;left: 0px;">
+                                        <div class="text-light text-center" style="font-family: jost; font-size: 20pt;">Safe and Sound Lyric video</div>
+                                        <div class="text-light text-center" style="font-family: jost; font-size: 15pt; font-weight: 100; text-decoration: none;">motion graphics </div>
+                                    </div>
+                                </div>
+                            </a>
+
+                        </div>
+                    </div>
+
+                    <div class=" col-lg-4 col-sm-6 portfolioItemContainer">
+                        <!-- Portfolio item 5-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal5">
+                                <div class="portfolio-hover">
+                                    <!--<div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>-->
+                                </div>
+                                <div style="position: relative;">
+                                    <img class="card-img-top" src="assets/img/portfolio/claire1.png" alt="..." />
+                                    <div class="card-img-bottom" style="background: rgba(255, 255, 255, 0.21);box-shadow: 0 4px 30px rgba(0, 0, 0, 0.21);backdrop-filter: blur(13px);-webkit-backdrop-filter: blur(13px); width: 100%;  position: absolute;bottom: 0px;left: 0px;">
+                                        <div class="text-light text-center" style="font-family: jost; font-size: 20pt;">Minimalism Infographic</div>
+                                        <div class="text-light text-center" style="font-family: jost; font-size: 15pt; font-weight: 100; text-decoration: none;">Interactive web-based infographic</div>
+                                    </div>
+                                </div>
+
+
+                            </a>
+
+                        </div>
+                    </div>
+
+                    <div class=" col-lg-4 col-sm-6 portfolioItemContainer">
+                        <!-- Portfolio item 6-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal6">
+                                <div class="portfolio-hover">
+                                    <!--<div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>-->
+                                </div>
+                                <div style="position: relative;">
+                                    <img class="card-img-top" src="assets/img/portfolio/jody1.jpg" alt="..." />
+                                    <div class="card-img-bottom" style="background: rgba(255, 255, 255, 0.21);box-shadow: 0 4px 30px rgba(0, 0, 0, 0.21);backdrop-filter: blur(13px);-webkit-backdrop-filter: blur(13px); width: 100%;  position: absolute;bottom: 0px;left: 0px;">
+                                        <div class="text-light text-center" style="font-family: jost; font-size: 20pt;">Heaven in Hiding Lyric video</div>
+                                        <div class="text-light text-center" style="font-family: jost; font-size: 15pt; font-weight: 100; text-decoration: none;">motion graphics</div>
+                                    </div>
+                                </div>
+
+
+                            </a>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+
+        <!--About-->
+
+        <section class="page-section" id="about" style="background-color: #282828;  height: 100vh; background-image: url('assets/img/gradientBlackRotated.png'); background-repeat: no-repeat;background-size: cover;background-position: right; ">
+            <div class="container-fluid" style=" ">
+                <div class="text-center">
+                    <h2 class="section-heading text-light" style="font-family: Leky; margin: auto ; letter-spacing: 6px; margin: 20px !important; ">About Us</h2>
+                    <h3 class="section-subheading text-muted">Get to know us.</h3>
+                
+                    
+                    <br>
+                    <!-- <h3 class="section-subheading text-muted">Lets tell you a little bit about us.</h3> -->
+                    <h3 class="text-light" style="font-family: 'Leky';letter-spacing: 4px;">Our mission</h3>
+                    <div style="width: 50%; margin: auto;"><p class="text-light" style="font-family: 'Jost', sans-serif;font-weight: 200; font-size: 20pt;">As multimedia students and as team members, we strive to deliver meaningful and creative content for the public.</p></div>
+                    <a href="#contact" style="color: #B44B46; font-family: 'Jost', sans-serif;font-weight: 300; font-size: 20pt;">contact us</a>
+                </div>
+
+                <br>
+                <br>
+                <br>
+
+                <div class="text-center">
+                    <h3 class="text-light" style="font-family: 'Leky';letter-spacing: 4px;">How can we help you</h3>
+                    <div style="width: 50%; margin: auto;"><p class="text-light" style="font-family: 'Jost', sans-serif;font-weight: 200; font-size: 20pt;">We offer you a large range of services. Do you have a large project that needs multiple forms of media? Or a one small illustration? Whatever it may be we probably have a service that suits your needs.</p></div>
+                    <a href="#services" style="color: #B44B46; font-family: 'Jost', sans-serif;font-weight: 300; font-size: 20pt;">view services</a>
+                </div>
+
+            </div>
+
+
+
+
+        </section>
+        <!-- Team-->
+        <section class="page-section" id="team" style="background-color: #272727;">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-light" style="font-family: Leky; letter-spacing: 6px">Meet The Team</h2>
+                    <h3 class="section-subheading text-muted">From all walks of life motivated by a mutual goal.</h3>
+                </div>
+                <div class="teamMemberContainer">
+                    <a class="portfolio-link" data-bs-toggle="modal" href="#teamModal1">
+                        <div class="teamMember teamMemberStyle1" id="reinhard">
+
+                            <div>
+                                <h3 style="font-family: Leky; letter-spacing: 6px; line-height:3rem">Reinhard</h3>
+                                <span>Coding, <br />Illustration, <br />Video Editing</span>
+
+                            </div>
+
+                        </div>
+                    </a>
+                    <a class="portfolio-link" data-bs-toggle="modal" href="#teamModal2">
+                        <div class="teamMember teamMemberStyle2" id="irone">
+                            <div>
+                                <h3 style="font-family: Leky; letter-spacing: 6px ; line-height:3rem">Irone</h3>
+                                <span>Coding, <br />Illustration, <br />UX/UI design</span>
+
+                            </div>
+
+                        </div>
+                    </a>
+                    <a class="portfolio-link" data-bs-toggle="modal" href="#teamModal3">
+                        <div class="teamMember teamMemberStyle1" id="claire">
+                            <div>
+                                <h3 style="font-family: Leky; letter-spacing: 6px ; line-height:3rem">Claire</h3>
+                                <span>UX/UI design</span><br />
+                                <span>Illustration</span><br />
+                                <span>Coding</span>
+                            </div>
+
+                        </div>
+                    </a>
+                    <a class="portfolio-link" data-bs-toggle="modal" href="#teamModal4">
+                        <div class="teamMember teamMemberStyle2" id="jody">
+                            <div>
+                                <h3 style="font-family: Leky; letter-spacing: 6px ; line-height:3rem">Jody</h3>
+                                <span>Web development</span><br />
+                                <span>Content Creation</span><br />
+                                <span>Game development</span><br />
+
+                            </div>
+
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Services -->
+
+        <section class="page-section " id="services" style="background-color: #282828; margin: 0 !important;padding: 0 !important; height: 100vh;background-image: url('assets/img/gradientBlack.png'); background-repeat: no-repeat;background-size: cover;background-position: right;  ">
+            <div class="container vh-100">
+                <div class="text-center">
+                    <h2 class="section-heading text-light" style="font-family: Leky; letter-spacing: 6px">Services</h2>
+                    <h3 class="section-subheading text-muted">We are Multimedia students who provide a plethora of services.</h3>
+                </div>
+
+                <div class="row">
+
+                    <div class="col-lg-4 col-sm-4 mb-4">
+                        <!-- Portfolio item 2-->
+                        <div class="serviceItem">
+
+                            <div class="portfolio-hover">
+                                <!--<div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>-->
+
+                            </div>
+                            
+                                <img class="img-fluid" src="assets/img/illustrations/UIUX.png" alt="..." />
+                            
+                            <div class="portfolio-caption">
+                                <div class="row">
+                                    <div class="col-7">
+                                        <div class="service-caption text-light">Design</div>
+                                        <div class="service-subcaption text-muted">Consultation</div>
+                                    </div>
+                                    <div class="col-5">
+                                        <a class="portfolio-link" href="#contact"><button class="btn consultationButton"> Book Consultation </button></a>
+                                    </div>
+                                </div>
+                                <br />
+                                <div class="row">
+                                    <div class="servicesDescription">
+                                        <div class="serviceSubItem"><p>UI/UX Design</p></div>
+                                        <div class="serviceSubItem"><p>Websites Design</p></div>
+                                        <div class="serviceSubItem"><p>Visual Design</p></div>
+                                        <div class="serviceSubItem"><p>Prototyping and Testing</p></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="col-lg-4 col-sm-4 mb-4">
+                        <!-- Portfolio item 2-->
+                        <div class="serviceItem">
+
+                            <div class="portfolio-hover">
+                                <!--<div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>-->
+
+                            </div>
+                            
+                                <img class="img-fluid" src="assets/img/illustrations/Web.png" alt="..." />
+                            
+                            <div class="portfolio-caption">
+                                <div class="row">
+                                    <div class="col-7">
+                                        <div class="service-caption text-light">Developement</div>
+                                        <div class="service-subcaption text-muted">Consultation</div>
+                                    </div>
+                                    <div class="col-5">
+                                         <a class="portfolio-link" href="#contact"><button class="btn consultationButton"> Book Consultation </button></a>
+                                    </div>
+                                </div>
+                                <br />
+                                <div class="row">
+                                    <div class="servicesDescription">
+                                        <div class="serviceSubItem"><p>HTML/CSS/JS</p></div>
+                                        <div class="serviceSubItem"><p>Full Stack Programming</p></div>
+                                        <div class="serviceSubItem"><p>Database Integration</p></div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-sm-4 mb-4">
+                        <!-- Portfolio item 2-->
+                        <div class="serviceItem">
+
+                            <div class="portfolio-hover">
+                                <!--<div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>-->
+
+                            </div>
+                            
+                                <img class="img-fluid" src="assets/img/illustrations/Motion.png" alt="..." />
+                            
+                            <div class="portfolio-caption">
+                                <div class="row">
+                                    <div class="col-7">
+                                        <div class="service-caption text-light">Content</div>
+                                        <div class="service-subcaption text-muted">Consultation</div>
+                                    </div>
+                                    <div class="col-5">
+                                         <a class="portfolio-link" href="#contact"><button class="btn consultationButton"> Book Consultation </button></a>
+                                    </div>
+                                </div>
+                                <br />
+                                <div class="row">
+                                    <div class="servicesDescription">
+                                        <div class="serviceSubItem"><p>Video</p></div>
+                                        <div class="serviceSubItem"><p>Illustrations</p></div>
+                                        <div class="serviceSubItem"><p>Motion Graphics</p></div>
+                                        <div class="serviceSubItem"><p>3D Graphics</p></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Merch -->
+
+        <section class="page-section " id="merch" style="background-color: #272727;">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-light" style="font-family: Leky; letter-spacing: 6px">Merch</h2>
+                    <h3 class="section-subheading text-muted">We are Multimedia students who provide a plethora of services.</h3>
+                </div>
+
+                <div class="row">
+
+                    <div class="col-lg-4 col-sm-4 mb-4">
+                        <!-- Portfolio item 2-->
+                        <div class="serviceItem">       
+                                <div class="portfolio-hover">
+                                    <!--<div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>-->
+                                </div>
+                                <a class="portfolio-link" data-bs-toggle="modal" href="#merchModal1">
+                                    <img class="img-fluid" src="assets/img/illustrations/mug.png" alt="..." />
+                                </a>
+                            <div class="portfolio-caption">
+                                <div class = "row">
+                                    <div class = "col-7">
+                                        <div class="service-caption text-light">sword mug</div>
+                                        <div class="service-subcaption text-muted">R100</div>
+                                    </div>
+                                    <div class = "col-4">
+                                        <button class = "btn consultationButton mt-2" data-bs-toggle="modal" href="#merchModal1">Add to Cart</button>
+                                    </div>
+                                </div>
+                                <br/>
+                                <!-- <div class = "row">
+                                    <div class = "servicesDescription">
+                                        <div class = "serviceSubItem"><p>UI/UX Design</p></div>
+                                        <div class = "serviceSubItem"><p>Websites Design</p></div>
+                                        <div class = "serviceSubItem"><p>Visual Design</p></div>
+                                        <div class = "serviceSubItem"><p>Prototyping and Testing</p></div>
+                                    </div>
+                                </div> -->
+                            </div>
+                        </div>                       
+                    </div>
+                
+
+                    <div class="col-lg-4 col-sm-4 mb-4">
+                        <!-- Portfolio item 2-->
+                        <div class="serviceItem">                            
+                                <div class="portfolio-hover">
+                                    <!--<div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>-->
+                                </div>
+                                <a class="portfolio-link" data-bs-toggle="modal" href="#merchModal2">
+                                    <img class="img-fluid" src="assets/img/illustrations/shirt.png" alt="..." />
+                                </a>
+                            <div class="portfolio-caption">
+                                <div class = "row">
+                                    <div class = "col-7">
+                                        <div class="service-caption text-light">IRIS TSHIRT</div>
+                                        <div class="service-subcaption text-muted">R250</div>
+                                    </div>
+                                    <div class = "col-5">
+                                        
+                                        <button class = "btn consultationButton mt-2" data-bs-toggle="modal" href="#merchModal2">Add To Cart</button>
+                                    </div>
+                                </div>
+                                <br/>
+                                <!-- <div class = "row">
+                                    <div class = "servicesDescription">
+                                        <div class = "serviceSubItem"><p>HTML/CSS/JS</p></div>
+                                        <div class = "serviceSubItem"><p>Full Stack Programming</p></div>
+                                        <div class = "serviceSubItem"><p>Database Integration</p></div>
+                                    </div>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-sm-4 mb-4">
+                        <!-- Portfolio item 2-->
+                        <div class="serviceItem">                           
+                                <div class="portfolio-hover">
+                                    <!--<div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>-->
+                                </div>
+                                <a class="portfolio-link" data-bs-toggle="modal" href="#merchModal3">
+                                    <img class="img-fluid" src="assets/img/illustrations/forest_path2.jpg" alt="..." />
+                                </a>
+                            <div class="portfolio-caption">
+                                <div class = "row">
+                                    <div class = "col-7">
+                                        <div class="service-caption text-light">YELLOW FOREST POSTER</div>
+                                        <div class="service-subcaption text-muted">R300</div>
+                                    </div>
+                                    <div class = "col-5">
+                                        <button class = "btn consultationButton mt-2" data-bs-toggle="modal" href="#merchModal3">Add to Cart</button>
+                                    </div>
+                                </div>
+                                <br/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Contact-->
+        <section class="page-section" id="contact">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading " style="font-family: Leky; letter-spacing: 6px">Contact Us</h2>
+
+                    <div style="padding: 20px;">
+                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter" style="color: #B44B46; font-size: 25pt"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f" style="color: #B44B46;font-size: 25pt"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in" style="color: #B44B46;font-size: 25pt "></i></a>
+                    </div>
+                </div>
+
+                <div class="text-center" style="font-family: Leky;font-size: 20pt; color: white;letter-spacing: 2px; margin: 20px;">
+                    OR
+                </div>
+
+
+                <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                    <div class="row align-items-stretch mb-5" style="width: 60%; margin: auto;">
+
+                        <!-- <div class="col-md-6"> -->
+                        <div class="form-group col-md-6">
+                            <!-- Name input-->
+                            <label style="font-family: jost; color: white; font-size: 20pt;">Name</label>
+                            <input class="form-control border border-white" id="name" type="text" placeholder="Your Name *" data-sb-validations="required" style="background-color: #272727;color: white" />
+                            <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+                        </div>
+
+                        <div class="form-group col-md-6">
+                            <!-- Email address input-->
+                            <label style="font-family: jost; color: white; font-size: 20pt;">Surname</label>
+                            <input class="form-control" id="surname" type="text" placeholder="Your Surname *" data-sb-validations="required" style="background-color: #272727;color: white" />
+                            <div class="invalid-feedback" data-sb-feedback="surname:required">A surname is required.</div>
+
+                        </div>
+                        <div class="form-group col-md-12">
+                            <label style="font-family: jost; color: white; font-size: 20pt;">Email</label>
+                            <input class="form-control" id="email" type="email" placeholder="Your Email *" data-sb-validations="required,email" style="background-color: #272727;color: white" />
+                            <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
+                            <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
+                        </div>
+                        <!-- </div> -->
+
+
+                        <div class="form-group col-md-12">
+                            <div class="form-group form-group-textarea mb-md-0">
+                                <!-- Message input-->
+                                <label style="font-family: jost; color: white; font-size: 20pt;">Message</label>
+                                <textarea class="form-control" id="message" placeholder="Your Message *" data-sb-validations="required" style="background-color: #272727; color: white;"></textarea>
+                                <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    <div class="d-none" id="submitSuccessMessage">
+                        <div class="text-center text-white mb-3">
+                            <div class="fw-bolder">Form submission successful!</div>
+                            To activate this form, sign up at
+                            <br />
+                            <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                        </div>
+                    </div>
+
+                    <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
+                    <!-- Submit Button-->
+                    <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase disabled" id="submitButton" type="submit" style="color: white;background-color: #B44B46;">Send Message</button></div>
+                </form>
+            </div>
+        </section>
+
+
+
+
+        <!-- Footer-->
+        <footer class="footer py-4">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 text-lg-start">Copyright &copy; Keepin' it real 2021</div>
+                    <div class="col-lg-4 my-3 my-lg-0">
+
+                    </div>
+                    <div class="col-lg-4 text-lg-end">
+                        <a class="link-dark text-decoration-none me-3" href="#!">Privacy Policy</a>
+                        <a class="link-dark text-decoration-none" href="#!">Terms of Use</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!--TEAM MODALS-->
+        <div class="portfolio-modal modal fade teamModal" id="teamModal1" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="projectBackground"></div>
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Reinhard Stoop</h2>
+                                    <div class="innerTeamContainer">
+                                        <div class="teamImagesContainer" id="reinhardModal" style="background-image: url('assets/img/team/reinhard_illustration.png');">
+                                            <!--<img class=" d-inline-flex projectImages" src="assets/img/team/reinhard_illustration.png" alt="..." />-->
+                                        </div>
+                                        <div class="teamDescriptions">
+                                            <h3>Contact & social</h3>
+                                            <img class="  d-inline-flex icon" src="assets/img/team/gmail.png" alt="..." />
+                                            <img class="  d-inline-flex icon" src="assets/img/team/github.png" alt="..." />
+                                            <h4>About</h4>
+                                            <p>I am a final year multimedia student who enjoys playing games and making them. I enjoy creating a good user experience and to keep users happy.  I love digital art and I enjoy creating it myself. </p>
+                                            <h4>Roles</h4>
+                                            <span>Coding in HTML, JavaScript and CSS</span><br />
+                                            <span>Illustration</span><br />
+                                            <span>Video Editing</span><br />
+
+                                            <p><b><i><a class="teamMemberLink" href="#teamModel2"> Next member Irone ></a></i></b></p>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="portfolio-modal modal fade teamModal" id="teamModal2" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="projectBackground"></div>
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Irone Botha</h2>
+                                    <div class="innerTeamContainer">
+                                        <div class="teamImagesContainer" id="reinhardModal" style="background-image: url('assets/img/team/irone_illustration.png');">
+                                            <!--<img class=" d-inline-flex projectImages" src="assets/img/team/reinhard_illustration.png" alt="..." />-->
+                                        </div>
+                                        <div class="teamDescriptions">
+                                            <h3>Contact & social</h3>
+
+                                            <img class="  d-inline-flex icon" src="assets/img/team/gmail.png" alt="..." />
+                                            <img class="  d-inline-flex icon" src="assets/img/team/github.png" alt="..." />
+                                            <h4>About</h4>
+                                            <p> Ever since I can remember I have enjoyed creating products, whether it be physical or digital products. If it is challenging and creative I will enjoy doing it. </p>
+                                            <h4>Roles</h4>
+                                            <span><b>Coding</b> - HTML5, JavaScript, CSS3, Python and React</span><br />
+                                            <span><b>Illustration</b> - using Adobe Illustrator, Photoshop or Procreate</span><br />
+                                            <span><b>UX/UI design</b>- Figma is my goto tool but I enjoy using Adobe XD as well</span><br />
+
+                                            <p><b><i><a class="teamMemberLink" href="#teamModel3"> Next member Claire ></a></i></b></p>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="portfolio-modal modal fade teamModal" id="teamModal3" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="projectBackground"></div>
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Claire Smith</h2>
+                                    <div class="innerTeamContainer">
+                                        <div class="teamImagesContainer" id="reinhardModal" style="background-image: url('assets/img/team/claire_illustration.png');">
+                                            <!--<img class=" d-inline-flex projectImages" src="assets/img/team/reinhard_illustration.png" alt="..." />-->
+                                        </div>
+                                        <div class="teamDescriptions">
+                                            <h3>Contact & social</h3>
+
+                                            <img class="  d-inline-flex icon" src="assets/img/team/gmail.png" alt="..." />
+                                            <img class="  d-inline-flex icon" src="assets/img/team/github.png" alt="..." />
+                                            <h4>About</h4>
+                                            <p> I have always enjoyed art and technology is just another canvas for me to be able to express myself. </p>
+                                            <h4>Roles</h4>
+                                            <span><b>Coding</b> - HTML5, JavaScript, CSS3</span><br />
+                                            <span><b>Illustration</b> - using Adobe Illustrator, Photoshop or Procreate</span><br />
+                                            <span><b>UX/UI design</b>- Adobe XD</span><br />
+
+                                            <p><b><i><a class="teamMemberLink" href="#teamModel4"> Next member Jody ></a></i></b></p>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="portfolio-modal modal fade teamModal" id="teamModal4" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="projectBackground"></div>
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Jody Vos</h2>
+                                    <div class="innerTeamContainer">
+                                        <div class="teamImagesContainer" id="reinhardModal" style="background-image: url('assets/img/team/jody_illustration.png');">
+                                            <!--<img class=" d-inline-flex projectImages" src="assets/img/team/reinhard_illustration.png" alt="..." />-->
+                                        </div>
+                                        <div class="teamDescriptions">
+                                            <h3>Contact & social</h3>
+
+                                            <img class="  d-inline-flex icon" src="assets/img/team/gmail.png" alt="..." />
+                                            <img class="  d-inline-flex icon" src="assets/img/team/github.png" alt="..." />
+                                            <h4>About</h4>
+                                            <p> I am a third and final year BIS Multimedia student who has always had an immense interest in technology and art and where they overlap. I value creative and practical solutions and wish to create a career that incorporates this. </p>
+                                            <h4>Roles</h4>
+                                            <span><b>Content Creation</b> </span><br />
+                                            <span><b>Web Development </b> - in HTML, CSS and Javascript</span><br />
+                                            <span><b>Game development</b>- Unity</span><br />
+
+                                            <p><b><i><a class="teamMemberLink" href="#teamModel1"> Next member Reinhard ></a></i></b></p>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="portfolio-modal modal fade" id="merchModal1" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog" >
+                <div class="modal-content" style= "background-color: #272727; color:white;">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-8">
+                                <div class="modal-body row">
+                                    <div class="col-6">
+                                        <!-- Project details-->
+                                        <h3 class="text-uppercase">Sword Mug</h3>
+                                        <p class="item-intro text-muted">About Item</p>
+                                        <img class="img-fluid d-block mx-auto" src="assets/img/illustrations/mug.png" alt="..." />
+                                        <p>A cute mug with a sword from the Iris game.</p>
+                                    </div>
+                                    <div class="col-6 "style="text-align: left;">
+                                        <p class="h4 mb-2">Price</p>
+                                        R100
+                                        <p class="h4 mb-2">Colour</p>
+                                        <button class="btn btn-primary btn-outline-secondary btn-xl text-uppercase" style="background-color: darkgrey" type="button"></button>
+                                        <button class="btn btn-primary btn-outline-secondary btn-xl text-uppercase" style="background-color: lightgray" type="button"></button>                                                  
+                                        <div class="row">
+                                            <div class="col p-2">
+                                                <p class="h4 mb-2">Quantity</p>
+                                                <input type="number" value="1" class="input-group"/>                   
+                                            </div>
+                                            <div class="col p-2 invisible">
+                                                <p class="h4 mb-2">Size</p>
+                                                <ul class="list-inline">
+                                                    <li>
+                                                        <button class="btn btn-primary btn-outline-secondary text-uppercase m-1" style="background-color: lightgray; width:80%;" type="button">Extra Small</button>
+                                                    </li>
+                                                    <li>
+                                                        <button class="btn btn-primary btn-outline-secondary text-uppercase m-1" style="background-color: lightgray; width:80%;" type="button">Small</button>
+                                                    </li>
+                                                    <li>
+                                                        <button class="btn btn-primary btn-outline-secondary text-uppercase m-1" style="background-color: lightgray; width:80%;" type="button">Medium</button>
+                                                    </li>
+                                                    <li>
+                                                        <button class="btn btn-primary btn-outline-secondary text-uppercase m-1" style="background-color: lightgray; width:80%;" type="button">Large</button>
+                                                    </li>
+                                                    <li>
+                                                        <button class="btn btn-primary btn-outline-secondary text-uppercase m-1" style="background-color: lightgray; width:80%;" type="button">Extra Large</button>
+                                                    </li>
+                                                </ul>                  
+                                            </div>
+                                        </div>                                                                                                            
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <button class="btn btn-primary text-uppercase" style="border-color: #B44B46; border-width: 2px; background-color: #2e2e2e; color: #B44B46; border-radius: 2px; " data-bs-dismiss="modal" type="button">
+                                                <i class="fas fa-times me-1"></i>
+                                                Back to merchandise
+                                            </button>
+                                        </div>
+                                        <div class="col-7">
+                                            <button class = "btn btn-xl btn-primary text-uppercase" style="border-color: white; border-width: 2px; background-color: #2e2e2e; color: white; border-radius: 2px;">Add to Cart</button>
+                                        </div>
+                                    </div>
+                                  </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Merch item 2 modal popup-->
+        <div class="portfolio-modal modal fade" id="merchModal2" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog" >
+                <div class="modal-content" style= "background-color: #272727; color:white;">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-8">
+                                <div class="modal-body row">
+                                    <div class="col-6">
+                                        <!-- Project details-->
+                                        <h3 class="text-uppercase">Iris Shirt</h3>
+                                        <p class="item-intro text-muted">About Item</p>
+                                        <img class="img-fluid d-block mx-auto" src="assets/img/illustrations/shirt.png" alt="..." />
+                                        <p>A cute shirt of the main character of our newly released game.</p>
+                                    </div>
+                                    <div class="col-6 "style="text-align: left;">
+                                        
+                                        <p class="h4 mb-2">Price</p>
+                                        R100
+                                        <p class="h4 mb-2">Colour</p>
+                                        <button class="btn btn-primary btn-outline-secondary btn-xl text-uppercase" style="background-color: darkgrey" type="button"></button>
+                                        <button class="btn btn-primary btn-outline-secondary btn-xl text-uppercase" style="background-color: lightgray" type="button"></button>                                                  
+                                        <div class="row">
+                                            <div class="col p-2">
+                                                <p class="h4 mb-2">Quantity</p>
+                                                <input type="number" value="1" class="input-group"/>                   
+                                            </div>
+                                            <div class="col p-2">
+                                                <p class="h4 mb-2">Size</p>
+                                                <ul class="list-inline">
+                                                    <li>
+                                                        <button class="btn btn-primary btn-outline-secondary text-uppercase m-1" style="background-color: lightgray; width:80%;" type="button">Extra Small</button>
+                                                    </li>
+                                                    <li>
+                                                        <button class="btn btn-primary btn-outline-secondary text-uppercase m-1" style="background-color: lightgray; width:80%;" type="button">Small</button>
+                                                    </li>
+                                                    <li>
+                                                        <button class="btn btn-primary btn-outline-secondary text-uppercase m-1" style="background-color: lightgray; width:80%;" type="button">Medium</button>
+                                                    </li>
+                                                    <li>
+                                                        <button class="btn btn-primary btn-outline-secondary text-uppercase m-1" style="background-color: lightgray; width:80%;" type="button">Large</button>
+                                                    </li>
+                                                    <li>
+                                                        <button class="btn btn-primary btn-outline-secondary text-uppercase m-1" style="background-color: lightgray; width:80%;" type="button">Extra Large</button>
+                                                    </li>
+                                                </ul>                  
+                                            </div>
+                                        </div> 
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <button class="btn btn-primary text-uppercase" style="border-color: #B44B46; border-width: 2px; background-color: #2e2e2e; color: #B44B46; border-radius: 2px; " data-bs-dismiss="modal" type="button">
+                                                <i class="fas fa-times me-1"></i>
+                                                Back to merchandise
+                                            </button>
+                                        </div>
+                                        <div class="col-7">
+                                            <button class = "btn btn-xl btn-primary text-uppercase" style="border-color: white; border-width: 2px; background-color: #2e2e2e; color: white; border-radius: 2px;">Add to Cart</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Merch item 3 modal popup-->
+        <div class="portfolio-modal modal fade" id="merchModal3" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog" >
+                <div class="modal-content" style= "background-color: #272727; color:white;">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-8">
+                                <div class="modal-body row">
+                                    <div class="col-6">
+                                        <!-- Project details-->
+                                        <h3 class="text-uppercase">Yellow Forest Poster</h3>
+                                        <p class="item-intro text-muted">About Item</p>
+                                        <img class="img-fluid d-block mx-auto" src="assets/img/illustrations/forest_path2.jpg" alt="..." />
+                                        <p>A poster inspired by our game Iris, with a beautiful scenic backdrop to hang on your wall</p>
+                                    </div>
+                                    <div class="col-6 "style="text-align: left;">
+                                        
+                                        <p class="h4 mb-2">Price</p>
+                                        R100
+                                        <p class="h4 mb-2 invisible">Colour</p>
+                                        <button class="invisible btn btn-primary btn-outline-secondary btn-xl text-uppercase" style="background-color: darkgrey" type="button"></button>
+                                        <button class="invisible btn btn-primary btn-outline-secondary btn-xl text-uppercase" style="background-color: lightgray" type="button"></button>                                                  
+                                        <div class="row">
+                                            <div class="col p-2">
+                                                <p class="h4 mb-2">Quantity</p>
+                                                <input type="number" value="1" class="input-group"/>                   
+                                            </div>
+                                            <div class="col p-2">
+                                                <p class="h4 mb-2">Size</p>
+                                                <ul class="list-inline">
+                                                    <li>
+                                                        <button class="btn btn-primary btn-outline-secondary text-uppercase m-1" style="background-color: lightgray; width:80%;" type="button">Extra Small</button>
+                                                    </li>
+                                                    <li>
+                                                        <button class="btn btn-primary btn-outline-secondary text-uppercase m-1" style="background-color: lightgray; width:80%;" type="button">Small</button>
+                                                    </li>
+                                                    <li>
+                                                        <button class="btn btn-primary btn-outline-secondary text-uppercase m-1" style="background-color: lightgray; width:80%;" type="button">Medium</button>
+                                                    </li>
+                                                    <li>
+                                                        <button class="btn btn-primary btn-outline-secondary text-uppercase m-1" style="background-color: lightgray; width:80%;" type="button">Large</button>
+                                                    </li>
+                                                    <li>
+                                                        <button class="btn btn-primary btn-outline-secondary text-uppercase m-1" style="background-color: lightgray; width:80%;" type="button">Extra Large</button>
+                                                    </li>
+                                                </ul>                  
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <button class="btn btn-primary text-uppercase" style="border-color: #B44B46; border-width: 2px; background-color: #2e2e2e; color: #B44B46; border-radius: 2px; " data-bs-dismiss="modal" type="button">
+                                                <i class="fas fa-times me-1"></i>
+                                                Back to merchandise
+                                            </button>
+                                        </div>
+                                        <div class="col-7">
+                                            <button class = "btn btn-xl btn-primary text-uppercase" style="border-color: white; border-width: 2px; background-color: #2e2e2e; color: white; border-radius: 2px;">Add to Cart</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- Portfolio Modals-->
+        <!-- Portfolio item 1 modal popup-->
+        <div class="portfolio-modal modal fade " id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content testing123">
+                    <div class="projectBackground"></div>
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+
+                                    <h2 class="text-uppercase">Iris</h2>
+
+                                    <div class="projectDescriptions">
+                                        <h3>Description</h3>
+                                        <p> The Adventures of Iris is a game we developed for out final year project. o create this game we had to make use of the various skills that we had learned throughout our multimedia degree.</p>
+                                        <p><b>Category: </b> Game design, C# programming, illustration, animation, sound design</p>
+                                        <p><b><i><a class="projectLink"> Download game preview ></a></i></b></p>
+                                    </div>
+                                    <div class="projectImagesContainer">
+                                        <img class=" d-inline-flex projectImages" src="assets/img/portfolio/iris1.jpg" alt="..." />
+                                        <img class="  d-inline-flex projectImages" src="assets/img/portfolio/iris2.jpg" alt="..." />
+                                        <img class="  d-inline-flex projectImages" src="assets/img/portfolio/iris3.jpg" alt="..." />
+                                    </div>
+                                    <button class=" btn buttonType1" data-bs-dismiss="modal" type="button">
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 2 modal popup-->
+        <div class="portfolio-modal modal fade " id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content testing123">
+                    <div class="projectBackground"></div>
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+
+                                    <h2 class="text-uppercase">FLowers of Grief</h2>
+
+                                    <div class="projectDescriptions">
+                                        <h3>Description</h3>
+                                        <p> A short horror film that showcases our video-editing, sound design,writing and general content creation skills.</p>
+                                        <p><b>Category: </b> sound design, video editing </p>
+                                        <p><b><i><a class="projectLink"> View Trailer ></a></i></b></p>
+                                    </div>
+                                    <div class="projectImagesContainer">
+                                        <img class=" d-inline-flex projectImages" src="assets/img/portfolio/fg2.png" alt="..." />
+                                        <img class="  d-inline-flex projectImages" src="assets/img/portfolio/fg3.png" alt="..." />
+                                        <img class="  d-inline-flex projectImages" src="assets/img/portfolio/fg4.jpg" alt="..." />
+                                    </div>
+                                    <button class=" btn buttonType1" data-bs-dismiss="modal" type="button">
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 3 modal popup-->
+        <div class="portfolio-modal modal fade " id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content testing123">
+                    <div class="projectBackground"></div>
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+
+                                    <h2 class="text-uppercase">Reinhard Portfolio Project</h2>
+
+                                    <div class="projectDescriptions">
+                                        <h3>Description</h3>
+                                        <p> Reinhard Stoop’s final project of second year for VIO 202 (Visual Design). For this project we had to create a digital product that reflects on our 2 years of Visual Design. Sound, illustration, and animation was used to create a digital journey where the user can scroll and interact.</p>
+                                        <p><b>Category: </b> Html, CSS and JavaScript programming, illustration, sound design </p>
+                                        <p><b><i><a href="assets/portfolioProjects/Reinhard_project/VIO_Theme4.html" target="_blank" class="projectLink"> View portfolio website ></a></i></b></p>
+                                    </div>
+                                    <div class="projectImagesContainer">
+                                        <img class=" d-inline-flex projectImages" src="assets/img/portfolio/reinie2.png" alt="..." />
+                                        <img class="  d-inline-flex projectImages" src="assets/img/portfolio/reinie1.png" alt="..." />
+                                        <img class="  d-inline-flex projectImages" src="assets/img/portfolio/reinie3.png" alt="..." />
+                                    </div>
+                                    <button class=" btn buttonType1" data-bs-dismiss="modal" type="button">
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 4 modal popup-->
+        <div class="portfolio-modal modal fade " id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content testing123">
+                    <div class="projectBackground"></div>
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+
+                                    <h2 class="text-uppercase">Safe and Sound lyric video</h2>
+
+                                    <div class="projectDescriptions">
+                                        <h3>Description</h3>
+                                        <p>A lyric video and interactive album cover screen. The album conver screen takes inspiration from Capital City's music video and tries to capture an old film nostalgic aestehtic. </p>
+                                        <p><b>Category: </b> Html, CSS and JavaScript programming, illustration, sound design, motion graphics </p>
+                                        <p><b><i><a href="assets/portfolioProjects/Irone_project/index.html" target="_blank" class="projectLink"> View Safe and Sound Lyric video ></a></i></b></p>
+                                    </div>
+                                    <div class="projectImagesContainer">
+                                        <img class=" d-inline-flex projectImages" src="assets/img/portfolio/irone1.png" alt="..." />
+                                        <img class="  d-inline-flex projectImages" src="assets/img/portfolio/irone2.png" alt="..." />
+                                        <img class="  d-inline-flex projectImages" src="assets/img/portfolio/irone3.png" alt="..." />
+                                    </div>
+                                    <button class=" btn buttonType1" data-bs-dismiss="modal" type="button">
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 5 modal popup-->
+        <div class="portfolio-modal modal fade " id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content testing123">
+                    <div class="projectBackground"></div>
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+
+                                    <h2 class="text-uppercase">Minimalism Infographic</h2>
+
+                                    <div class="projectDescriptions">
+                                        <h3>Description</h3>
+                                        <p>An interactive infographic made to help people understand the meaning and usefullness of a minimalistic lifestyle.</p>
+                                        <p><b>Category: </b> Html, CSS and JavaScript programming, illustration, sound design</p>
+                                        <p><b><i><a href="assets/portfolioProjects/Claire_project/final.html" target="_blank" class="projectLink"> View Minimalism infographic ></a></i></b></p>
+                                    </div>
+                                    <div class="projectImagesContainer">
+                                        <img class=" d-inline-flex projectImages" src="assets/img/portfolio/claire1.png" alt="..." />
+                                        <img class="  d-inline-flex projectImages" src="assets/img/portfolio/claire2.png" alt="..." />
+                                        <img class="  d-inline-flex projectImages" src="assets/img/portfolio/claire3.png" alt="..." />
+                                    </div>
+                                    <button class=" btn buttonType1" data-bs-dismiss="modal" type="button">
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 6 modal popup-->
+        <div class="portfolio-modal modal fade " id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content testing123">
+                    <div class="projectBackground"></div>
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+
+                                    <h2 class="text-uppercase">Heaven in Hiding Lyric Video</h2>
+
+                                    <div class="projectDescriptions">
+                                        <h3>Description</h3>
+                                        <p>Jody Vos’s theme 3 project of for VIO 202 (Visual Design). In this project we were tasked with creating a minute long animated lyric video for a song on an artist’s album in the style of the albums cover. This project is an animated lyric video of “Heaven in Hiding” on Halsey’s album “Hopeless Fountain Kingdom” and is created in Adobe After Effects.</p>
+                                        <p><b>Category: </b> Html, CSS and JavaScript, illustration, motion graphics</p>
+                                        <p><b><i><a href="assets/portfolioProjects/Jody_project/index.html" target="_blank" class="projectLink"> View Heaven in Hiding Lyric video ></a></i></b></p>
+                                    </div>
+                                    <div class="projectImagesContainer">
+                                        <img class=" d-inline-flex projectImages" src="assets/img/portfolio/jody1.jpg" alt="..." />
+                                        <img class="  d-inline-flex projectImages" src="assets/img/portfolio/jody2.png" alt="..." />
+                                        <img class="  d-inline-flex projectImages" src="assets/img/portfolio/jody3.png" alt="..." />
+                                    </div>
+                                    <button class=" btn buttonType1" data-bs-dismiss="modal" type="button">
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.5.1/dist/simpleParallax.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    </body>
+
+
+    <!--<script type="text/javascript">
+        
+        //const simpleParallax = require('simple-parallax-js');
+    var image = document.getElementsByClassName('thumbnail-of-image');
+    new simpleParallax(image, {
+    orientation: 'up',
+    scale:  1.1,   
+    delay: .1,
+    transition: 'cubic-bezier(0,0,0,1)'
+    });
+    </script>-->
+
 </html>
+
