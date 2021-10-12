@@ -1,0 +1,369 @@
+.thumbnail-of-image
+{
+	z-index: -1;
+	background-image: url("../assets/img/header-bg.jpg");
+}
+
+@font-face {
+  font-family: Leky;
+  src: url(../assets/fonts/LekyCalgria.ttf);
+}
+.hscroll, .hsinsideroll{ 
+  font-size: 5vw;
+  white-space: nowrap;
+}
+
+.movingSubHeading {
+
+	font-size: 54pt; 
+	padding-top: 60%; 
+	font-family: 'Jost', sans-serif;font-weight: 200;
+
+
+}
+
+.serviceItem {
+    background-color: #2e2e2e;
+    box-shadow: 4px 1px 13px 1px #121212;
+    padding: 3%;
+}
+
+.service-caption {
+	font-family: 'Jost', sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top: 1%;
+	font-size: 1.3em;
+}
+
+.service-subcaption {
+	font-family: 'Jost';
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.consultationButton {
+	font-family: 'Jost', sans-serif;
+	text-transform: uppercase;
+	border: 1px solid white;
+	color: white;
+	font-size: 80%;
+}
+
+.consultationButton:hover {
+	font-family: 'Jost', sans-serif;
+	text-transform: uppercase;
+	border: 1px solid white;
+	color: black;
+	font-size: 80%;
+	background-color: white;
+}
+
+.servicesDescription {
+	font-family: 'Jost', sans-serif;
+	color: white;
+	padding-left: 5%;
+	padding-right: 5%;
+	margin-bottom: 10%;
+}
+
+.serviceSubItem {
+	border-width: 0 2px 2px 2px;
+    border-color: #B44B46;
+    border-style: solid;
+    text-align: center;
+    padding: 2%;
+    margin-bottom: 0 !important;
+}
+
+.serviceSubItem:first-of-type {
+	border-width: 2px 2px 2px 2px;
+    border-color: #B44B46;
+    border-style: solid;
+    text-align: center;
+    padding: 2%;
+    margin-bottom: 0 !important;
+}
+
+.serviceSubItem p {
+	margin-bottom: 0;
+}
+
+.rotate {
+     
+         -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: white;
+    font-size: 100px !important;
+  }
+
+  #rotated {
+    transform: rotate(90deg);
+    display: grid;
+    height: 100vh;
+    width: 15vh;
+    right: 0vh;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: max-content max-content;
+    /* top: -60vh; */
+    position: absolute;
+    top: 3vh;
+  }
+
+  #top-link 
+  {
+  	font-family: 'Leky'; letter-spacing: 4px; color: white;
+  	text-decoration: none;
+  }
+
+  #submitButton
+  {
+  	background-color: #B44B46 !important;
+  	border: none;
+  }
+
+
+
+/*background-image: url("../assets/img/header-bg.jpg");*/
+
+
+/********************************TEAM STUFF ***********************/
+.teamMemberContainer {
+    width: 95% ;
+    margin: auto ;
+    text-align:center ;
+    overflow: hidden ;
+
+}
+
+.teamMember {
+    min-width: 400px;
+    min-height: 400px;
+    width: 18vw;
+    height: 18vw;
+    background-color: #B44B46;
+    display: inline-block;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#reinhard {
+    background-image: url("../assets/img/team/reinhard_illustration.png");
+}
+
+#irone {
+    background-image: url("../assets/img/team/irone_illustration.png");
+}
+
+#claire {
+    background-image: url("../assets/img/team/claire_illustration.png");
+}
+
+
+#jody {
+    background-image: url("../assets/img/team/jody_illustration.png");
+}
+
+
+#reinhardModal {
+    /*background-image: url(" .. /assets/img/team/reinhard_illustration.png"); */
+    background-repeat: no-repeat; 
+    background-size: contain;
+    background-color: transparent ;
+
+}
+
+
+.teamMemberStyle1 {
+    /* float:left ; */
+    margin-right: 2%;
+}
+
+.teamMemberStyle2 {
+    margin-top: 25vw;
+    /* float: right ;*/
+    vertical-align: top;
+    margin-left: 2%;
+}
+
+.teamMemberStyle1 div {
+    text-align: right;
+    position: relative;
+    top: 7vw ;
+    left: 2vw ;
+}
+
+.teamMemberStyle2 div{
+    text-align: left ;
+    position: relative;
+    top: 7vw ;
+    right: 2vw ;
+}
+
+
+
+
+/*Projects*/
+.portfolioItemContainer {
+    margin-bottom: 2% ;
+}
+
+
+
+
+
+
+
+/*Modals team*/
+.teamImagesContainer {
+    /*float: left ;*/
+    width: 50%;
+    background: white;
+    margin-right: 5%;
+    height: 70vh;
+    display: inline-block;
+    vertical-align: top;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.teamDescriptions {
+    /*float: left ;*/
+    width: 35%;
+    text-align: left;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.innerTeamContainer {
+    width: 150%;
+    position: relative;
+    left: -25%;
+    /*background-color: blue ;*/
+}
+
+.teamModal h2 {
+    margin-bottom: 40px;
+}
+
+.teamModal {
+    /*overflow:hidden ;*/
+}
+
+.icon {
+    display: inline-block;
+    width: 10%;
+    margin-right: 5%;
+}
+
+
+/*MODALS projects*/
+.projectBackground {
+    background-color: red;
+    position: absolute;
+    top: 0px;
+    z-index: -0;
+    height: 300px;
+    width: 100%;
+    background-image: url("../assets/img/GradientBlur.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+
+
+
+.modal-content {
+    background-color: #272727;
+    color: white;
+}
+
+
+.modal-content h2 {
+    padding-top: 60px;
+    margin-bottom: 150px;
+    font-family: 'Leky';
+    letter-spacing: 4px;
+    font-size: 2.4rem !important;
+    width: 150% ;
+    text-align:left ;
+}
+
+.projectDescriptions {
+    text-align: left;
+}
+
+.projectImagesContainer {
+    width: 150%;
+    position: relative;
+    left: -14% ;
+    /*left: -25%;*/
+
+}
+
+
+.projectImages {
+    width: 25%;
+    min-width: 300px;
+    height: auto;
+    margin: 1.8%;
+    margin-left: 0px ;
+}
+
+.projectLink, .teamMemberLink {
+    color: #B44B46;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+
+.buttonType1 {
+    font-family: 'Jost', sans-serif;
+    transition-duration: 0.4s ;
+    color: white;
+    padding: 8px 16px;
+    text-align: left;
+    text-decoration: none;
+    display: block;
+    font-size: 80%;
+    margin: 30px 7px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid white;
+    text-transform: uppercase ;
+}
+
+.buttonType1:hover {
+    background-color: white;
+    color: #272727;
+}
+
+
+.buttonType2 {
+    font-family: 'Jost', sans-serif;
+    margin: 30px 7px;
+    transition-duration: 0.4s;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 80%;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white;
+    color: #272727;
+    border: 1px solid white;
+    text-transform: uppercase;
+}
+
+
+.buttonType2:hover {
+    background-color: #272727;
+    color:white;
+}
+
+
