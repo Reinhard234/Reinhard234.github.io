@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>VIO Project - Jody Vos</title>
+		<meta name = "author" content="Jody Vos">
+		<meta charset = "UTF-8"/> 
+		<link href="css/style.css" 
+		type="text/css"
+		rel="stylesheet">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+		<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+	<body>
+		
+		<header id = "startHeader">
+			<nav class = "fluid-container">
+				<div class = "row pt-2" id = "topBar">
+					<div class = "col-auto offset-8 text-center" id = "navigation"><a href = "Information.html">rationale & plagerism form</a></div>
+				</div>
+			</nav>
+
+			<div class = "row logoHolder justify-content-center">
+				<p id = "heading"> heaven in hiding </p>
+			</div>
+
+		</header>
+	    	
+		<button id = "start" class = "btn btn-dark">start</button>
+		<div id = "background">
+			<div id = "clickPlay">
+			</div>
+		</div>
+		<div id = "red">
+		</div>
+		
+
+
+		<button class = "btn btn-light" id = "toStart" class="buttonNew"><i class="fa fa-arrow-left"></i></button>
+		<button class = "btn btn-light" id = "toMain" class="buttonNew"><i class="fa fa-arrow-left"></i></button>
+		<!-- <a href = "../index.html"><button class = "btn btn-light" id = "backToProject" class="buttonNew"><i class="fa fa-arrow-left"></i></button></a> -->
+		<div>
+			<video id = "video" width="100%" controls autoplay>
+				<source src="media/video/heavenInHiding.mp4" type="video/mp4">
+			</video>
+		</div>
+		
+
+		<script src="javascript/script.js"></script>
+	</body>
+</html>
