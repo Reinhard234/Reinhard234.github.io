@@ -145,10 +145,22 @@ html
   	text-decoration: none;
   }
 
-  #submitButton
+  #submitButtonForm 
   {
-  	background-color: #B44B46 !important;
+  	background-color: #B44B46 ;
+    color: white;
   	border: none;
+    transform: scale(1.2);
+    transition: all .25s ease-in-out;
+    /*animation-duration: 1s;*/
+  }
+
+  #submitButtonForm:hover
+  {
+    background-color: white;
+    color: #B44B46;
+    border: none;
+    transform: scale(1.3);
   }
 
 
@@ -837,7 +849,7 @@ html
 }
 
 .uncompleted {
-  background-color: #555555;
+  background-color: #b5b5b5;
   border: 1px solid white;
 }
 
@@ -853,7 +865,7 @@ html
 }
 
 .orderSubSubheading {
-  color: #b0b0b0;
+  color: #575757;
   font-family: 'Jost';
   font-weight: 400;
   text-align: center;
@@ -959,3 +971,89 @@ footer
 
   
 }
+
+#checkoutPage {
+  /*height: 100%;*/
+}
+
+.glassMorphism {
+  background: rgba(255, 255, 255, 0.21) !important;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1) !important;
+  backdrop-filter: blur(13px);
+  -webkit-backdrop-filter: blur(13px); 
+  width: 60%;
+  margin: 0 auto;
+  border-color: white !important;
+}
+
+.checkoutBackButton {
+  margin-right: 2%;
+  margin-bottom: 10%;
+  width: 100%;
+  line-height: 1.5;
+  padding: .375rem .75rem;
+  color: #B44B46 !important;
+  border: 1.5px solid #B44B46 !important;
+  background-color: transparent !important;
+}
+
+.checkoutBackButton:hover {
+  background-color: #B44B46 !important;
+  color: white !important;
+}
+
+.underCheckout {
+  color: #575757 !important;
+}
+
+.checkoutInput option {
+  color: #272727;
+  background-color: #f4f4f4 !important;
+}
+
+select {
+  color: #727272 !important;
+}
+
+.fa-chevron-left {
+  margin-right: 8%;
+  margin-left: 0%;
+}
+
+
+@media only screen and (max-width: 1600px) {
+  .dot {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: auto;
+    font-size: 0.35em;
+    text-align: center;
+  }
+
+  .progressCaption {
+    text-align: center;
+    font-size: 0.25em;
+    color: #f8F9FA;
+  }
+}
+
+.gifOverlay {
+    position: absolute;
+    width: 22%;
+    height: 43.3%;
+    z-index: 6;
+    opacity: 0;
+    background-color: black;
+    transition: opacity 200ms ease-in-out;
+    border-radius: 4px;
+    background-position: center; /* Center the image /
+    background-repeat: no-repeat; / Do not repeat the image /
+    background-size: cover; / Resize the background image to cover the entire container /
+    / margin: -15px 0 0 -15px;*/
+}
+
+    .gifOverlay:hover {
+        opacity: 1;
+        cursor: pointer;
+    }
