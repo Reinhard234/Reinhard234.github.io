@@ -51,11 +51,11 @@
                 </div>
             </div>
         </nav>
-        <section class="page-section " id="merch" style="background-color: #272727; ">
+        <section class="page-section" id = "checkoutPage" style="background-color: #282828; background-image: url('assets/img/GradientBlur.png');background-position: center;background-repeat: cover; background-attachment: fixed; background-position: 50% 50%; position: relative; ">
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-light" style="font-family: Leky; letter-spacing: 6px">Checkout</h2>
-                    <h3 class="section-subheading text-muted">Your items should make their way to you soon.</h3>
+                    <h3 class="section-subheading underCheckout">Your items should make their way to you soon.</h3>
                 </div>
             </div>
             <div style="background: rgba(255, 255, 255, 0.21);box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);backdrop-filter: blur(13px);-webkit-backdrop-filter: blur(13px); width: 60%;margin: 0 auto;">
@@ -99,26 +99,26 @@
                                 
                                 <div class="form-group col-md-12">
                                     <label class = "checkoutLabel">Complex/Building</label>
-                                    <input class="form-control checkoutInput" type="text" placeholder="Complex or Building Name, unit number or floor"/>
+                                    <input class="form-control checkoutInput glassMorphism" type="text" placeholder="Complex or Building Name, unit number or floor"/>
                                     
                                 </div>
                                 <!-- </div> -->
 
                                 <div class="form-group col-md-12">
                                     <label class = "checkoutLabel">Street Address</label>
-                                    <input class="form-control checkoutInput" type="text" placeholder="e.g. 20 Niel Street" />
+                                    <input class="form-control checkoutInput glassMorphism" type="text" placeholder="e.g. 20 Niel Street" />
                                 </div>
 
                                 <div class="form-group col-md-12">
                                     <label class = "checkoutLabel">Suburb *</label>
-                                    <input class="form-control checkoutInput" type="text" placeholder="e.g. Foreshore" data-sb-validations="required" />
+                                    <input class="form-control checkoutInput glassMorphism" type="text" placeholder="e.g. Foreshore" data-sb-validations="required" />
                                     <div class="invalid-feedback" data-sb-feedback="email:required">A suburb is required.</div>
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label class = "checkoutLabel">Province *</label>
-                                    <select class = "form-control checkoutInput" name="province_id">
+                                    <select class = "form-control checkoutInput glassMorphism" style = "color: #727272 !important;" name="province_id">
                                         <option value="0" selected="selected">Please Select</option>
-                                        <option value="1">Eastern Cape</option>
+                                        <option value="1" class="glassMorphism">Eastern Cape</option>
                                         <option value="2">Free State</option>
                                         <option value="3">Gauteng</option>
                                         <option value="4">KwaZulu-Natal</option>
@@ -133,14 +133,14 @@
                                 <div class="form-group col-md-9">
                                     <!-- Name input-->
                                     <label class = "checkoutLabel">City *</label>
-                                    <input class="form-control border border-white checkoutInput" type="text" data-sb-validations="required"/>
+                                    <input class="form-control border border-white checkoutInput glassMorphism" type="text" data-sb-validations="required"/>
                                     <div class="invalid-feedback" data-sb-feedback="name:required">A city is required.</div>
                                 </div>
 
                                 <div class="form-group col-md-3">
                                     <!-- Email address input-->
                                     <label class = "checkoutLabel">Postal Code</label>
-                                    <input class="form-control checkoutInput"  type="text" data-sb-validations="required"/>
+                                    <input class="form-control checkoutInput glassMorphism"  type="text" data-sb-validations="required"/>
                                     <div class="invalid-feedback" data-sb-feedback="surname:required">A postal code is required.</div>
 
                                 </div>
@@ -162,8 +162,8 @@
                             
                         </form>
                         <div class="row align-items-stretch mb-5" style="width: 60%; margin: auto;">
-                            <div class="text-center">
-                                <button class="btn btn-dark text-uppercase checkoutButton" id="deliveryButton" onclick="checkoutClick(0)">Continue To Payment</button>
+                            <div class="text-center row" style="margin: auto;">
+                                <button class = "btn btn-dark col-4 text-uppercase glassMorphism checkoutBackButton" onclick="backClick(0)"><i class="fas fa-chevron-left"></i>     <span>back</span></button> <button class="btn btn-dark text-uppercase checkoutButton col" id="deliveryButton" onclick="checkoutClick(0)">Continue To Payment</button>
                             </div>
                         </div>
                     </div>
@@ -181,14 +181,14 @@
                                 
                                 <div class="form-group col-md-12">
                                     <label class = "checkoutLabel">Name on card *</label>
-                                    <input class="form-control checkoutInput" type="text" />
+                                    <input class="form-control checkoutInput glassMorphism" type="text" />
                                     
                                 </div>
                                 <!-- </div> -->
 
                                 <div class="form-group col-8">
                                     <label class = "checkoutLabel">Card Type *</label>
-                                    <select class = "form-control checkoutInput" name="cardType">
+                                    <select class = "form-control checkoutInput glassMorphism" name="cardType">
                                         <option value="0" selected="selected">Visa</option>
                                         <option value="1">MasterCard</option>
                                         
@@ -214,21 +214,21 @@
                                 <div class="form-group col-md-9">
                                     <!-- Name input-->
                                     <label class = "checkoutLabel">Card Number *</label>
-                                    <input class="form-control border border-white checkoutInput" type="text" data-sb-validations="required"/>
+                                    <input class="form-control border border-white checkoutInput glassMorphism" type="text" data-sb-validations="required"/>
                                     <div class="invalid-feedback" data-sb-feedback="name:required">A city is required.</div>
                                 </div>
 
                                 <div class="form-group col-md-3">
                                     <!-- Email address input-->
                                     <label class = "checkoutLabel">CVC *</label>
-                                    <input class="form-control checkoutInput"  type="text" data-sb-validations="required"/>
+                                    <input class="form-control checkoutInput glassMorphism"  type="text" data-sb-validations="required"/>
                                     <div class="invalid-feedback" data-sb-feedback="surname:required">A postal code is required.</div>
 
                                 </div>
 
                                 <div class="form-group col-6">
                                     <label class = "checkoutLabel">Expiry Date *</label>
-                                    <select class = "form-control checkoutInput" name="cardType">
+                                    <select class = "form-control checkoutInput glassMorphism" name="cardType">
                                         <option value="0" selected="selected">Month</option>
                                         <option value="1">01</option>
                                         <option value="1">02</option>
@@ -249,7 +249,7 @@
 
                                  <div class="form-group col-6">
                                     <label class = "checkoutLabel" style = "opacity: 0%">Year</label>
-                                    <select class = "form-control checkoutInput" name="cardType">
+                                    <select class = "form-control checkoutInput glassMorphism" name="cardType">
                                         <option value="0" selected="selected">Year</option>
                                         <option value="1">2021</option>
                                         <option value="1">2022</option>
@@ -285,8 +285,8 @@
                             
                         </form>
                         <div class="row align-items-stretch mb-5" style="width: 60%; margin: auto;">
-                            <div class="text-center">
-                                <button class="btn btn-dark text-uppercase checkoutButton" id="paymentButton" onclick="checkoutClick(1)">Confirm Payment</button>
+                            <div class="text-center row" style="margin: auto;">
+                                <button class = "btn btn-dark col-4 text-uppercase glassMorphism checkoutBackButton" onclick="backClick(1)"><i class="fas fa-chevron-left" ></i> back</button> <button class="btn btn-dark text-uppercase checkoutButton col" id="deliveryButton" onclick="checkoutClick(1)">Confirm </button>
                             </div>
                         </div>
                     </section>
@@ -302,7 +302,7 @@
                         Enjoy your mug that you're not getting! </p>
                         <div class="row align-items-stretch mb-5" style="width: 60%; margin: auto;">
                             <div class="text-center">
-                                <a href = "index.html#page-top"><button class="btn btn-dark text-uppercase checkoutButton" id="paymentButton" onclick="checkoutClick(2)">Back To Main Page</button></a>
+                                <a href = "index.html#page-top"><button class="btn btn-dark text-uppercase checkoutButton" id="paymentButton" onclick="checkoutClick(2)"> Back To Main Page</button></a>
                             </div>
                         </div>
                     </section>
