@@ -38,3 +38,27 @@ function checkoutClick(x) {
 			
 	}
 }
+
+function backClick(x) {
+	switch(x) {
+    	case 0:
+    	{
+    		window.location.href = "index.html";
+			break;
+    	}
+
+    	case 1:
+    	{
+    		console.log("hello");
+			Dot2.classList.remove("currentlyActive");
+			Dot2.classList.add("uncompleted");
+			Dot1.classList.remove("completed");
+			Dot1.classList.add("currentlyActive");
+
+			PaymentForm.classList.add("hideFormPart");
+			DeliveryForm.classList.remove("hideFormPart");
+			break;
+    	}
+			
+	}
+}
