@@ -32,11 +32,25 @@ html
   src: url(../assets/fonts/PoiretOne-Regular.ttf);
 }
 
+@font-face {
+  font-family: yeseva;
+  src: url(../assets/fonts/YesevaOne-Regular.ttf);
+}
+
+@font-face {
+  font-family: yatra;
+  src: url(../assets/fonts/LeagueSpartan-SemiBold.ttf);
+}
+
+
+
+
 .thumbnail-of-image
 {
 	z-index: -1;
 	background-image: url("../assets/img/header-bg.jpg");
 }
+
 
 
 .hscroll, .hsinsideroll{ 
@@ -942,7 +956,8 @@ html
 
 footer
 {
-  background-color: white;
+  background-color: #030303;
+  color: rgb(119, 119, 119);
 }
 
 .staticMember {
